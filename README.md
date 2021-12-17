@@ -4,25 +4,27 @@ Sensirion SCD4x example
 ## Requirements
 ### Hardware requirements
 The following boards are required:
-- *List Sensirion SCD4x example hardware requirements here*
+- Zest Sensor CO2
+- Zest Core MTXDot
 
 ### Software requirements
 Sensirion SCD4x example makes use of the following libraries (automatically
 imported by `mbed deploy` or `mbed import`):
-- *List Sensirion SCD4x example software requirements here*
+- sensirion-scd4x
+- zest-core-mtxdot
 
 ## Usage
 To clone **and** deploy the project in one command, use `mbed import` and skip to the
 target enabling instructions:
 ```shell
-mbed import https://gitlab.com/catie_6tron/sensirion-scd4x-example.git sensirion-scd4x-example
+mbed import https://gitlab.com/koncepto/CATIE/3sqair/software/sensirion-scd4x-example.git sensirion-scd4x-example
 ```
 
 Alternatively:
 
 - Clone to "sensirion-scd4x-example" and enter it:
   ```shell
-  git clone https://gitlab.com/catie_6tron/sensirion-scd4x-example.git sensirion-scd4x-example
+  git clone https://gitlab.com/koncepto/CATIE/3sqair/software/sensirion-scd4x-example.git sensirion-scd4x-example
   cd sensirion-scd4x-example
   ```
 
